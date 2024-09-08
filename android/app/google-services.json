@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "206329068765",
+    "project_id": "farmereatsassignment",
+    "storage_bucket": "farmereatsassignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206329068765:android:2aacd9ba5df5c56de06f34",
+        "android_client_info": {
+          "package_name": "com.akshay.Assignment7924"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAZVwltIsaNGFgFuKf0AjqoohJQa_mzJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
