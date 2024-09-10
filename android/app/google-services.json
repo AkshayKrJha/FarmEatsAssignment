@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "206329068765",
-    "project_id": "farmereatsassignment",
-    "storage_bucket": "farmereatsassignment.appspot.com"
+    "project_number": "3952280083",
+    "project_id": "farmereatsassignment-64b39",
+    "storage_bucket": "farmereatsassignment-64b39.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:206329068765:android:2aacd9ba5df5c56de06f34",
+        "mobilesdk_app_id": "1:3952280083:android:0ee77a9ddb7ae372d2f5e6",
         "android_client_info": {
           "package_name": "com.akshay.Assignment7924"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "3952280083-apdmvmilr2foccln1su3op7dkdor9n08.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akshay.Assignment7924",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "3952280083-3gtnorhjahgiug7b5sa0gh8qlfh66fec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyDAZVwltIsaNGFgFuKf0AjqoohJQa_mzJM"
+          "current_key": "AIzaSyDH_tnX02byqlhALZNnfCaZRoYS-Yd84tg"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3952280083-3gtnorhjahgiug7b5sa0gh8qlfh66fec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

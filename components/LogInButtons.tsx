@@ -1,9 +1,18 @@
 import { Image, Pressable, StyleSheet, View } from "react-native";
+import { onGoogleButtonPress } from "../socialLogin/signInWithGoogle";
 
 export function LoginButtons() {
   return (
     <View style={styles.buttonContainer}>
-      <Pressable style={styles.innerButtonContainer}>
+      <Pressable
+        style={styles.innerButtonContainer}
+        onPress={() => {
+          onGoogleButtonPress().then(() => {
+            console.log("Signed in with google");
+            alert("Succetz")
+          });
+        }}
+      >
         <Image
           source={require("../assets/images/google-logo.png")}
           style={styles.img}
