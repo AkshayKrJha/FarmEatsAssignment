@@ -1,3 +1,3 @@
-[Demo Video] (Demo/demo-output-new.mp4)
+[Demo Video](Demo/demo-output-new.mp4)
 
-[APK] (Demo/app-release.apk)
+[APK](Demo/app-release.apk)
