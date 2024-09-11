@@ -32,7 +32,15 @@
       "expo-router",
       "@react-native-firebase/app",
       "@react-native-firebase/auth",
-      "@react-native-google-signin/google-signin"
+      "@react-native-google-signin/google-signin",
+      ["react-native-fbsdk-next",
+      {
+        "appID": "3676778525802143",
+        "clientToken": "cc02a8ed6827346d0596a1d05570b88d",
+        "displayName": "FarmerEats",
+        "scheme": "fb3676778525802143"
+      }
+    ]
     ],
     "experiments": {
       "typedRoutes": true

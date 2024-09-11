@@ -1,5 +1,7 @@
 import { Image, Pressable, StyleSheet, View } from "react-native";
 import { onGoogleButtonPress } from "../socialLogin/signInWithGoogle";
+import { onFacebookButtonPress } from "../socialLogin/facebookLogin";
+import { router } from "expo-router";
 
 export function LoginButtons() {
   return (
@@ -9,7 +11,8 @@ export function LoginButtons() {
         onPress={() => {
           onGoogleButtonPress().then(() => {
             console.log("Signed in with google");
-            alert("Succetz")
+            alert(" Google Login Succetz");
+            router.navigate("/confirmation");
           });
         }}
       >
@@ -30,7 +33,16 @@ export function LoginButtons() {
           resizeMode="contain"
         />
       </Pressable>
-      <Pressable style={styles.innerButtonContainer}>
+      <Pressable
+        style={styles.innerButtonContainer}
+        onPress={() => {
+          onFacebookButtonPress().then(() => {
+            console.log("Signed in with facebook");
+            alert("Facebook login succetz");
+            router.navigate("/confirmation");
+          });
+        }}
+      >
         <Image
           source={require("../assets/images/facebook-logo.png")}
           style={styles.img}
